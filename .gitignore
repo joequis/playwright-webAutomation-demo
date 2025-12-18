@@ -1,0 +1,44 @@
+# Node.js dependencias
+node_modules/
+
+# Playwright artefactos
+test-results/
+playwright-report/
+blob-report/
+videos/
+screenshots/
+
+# Allure reportes
+allure-results/
+allure-report/
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.swp
+
+# Configuración de IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
+.classpath
+nbproject/
+.vs/
+
+# Archivos de entorno
+.env
+*.env
+
+# Archivos de compilación y empaquetado
+dist/
+build/
+*.zip
+*.tar.gz
+*.rar
+
+## Sistema
+.DS_Store

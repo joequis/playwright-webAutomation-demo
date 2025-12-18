@@ -1,0 +1,15 @@
+{
+  "default": {
+    "dryRun": false,
+    "formatOptions": {
+      "snippetInterface": "async-await"
+    },
+    "paths": [
+      "e2eTest/tests/features/**/*.feature"
+    ],
+    "import": [
+      "e2eTest/tests/steps/**/*.ts"
+    ],
+    "format": ["json:./allure-results/cucumber-report.json"]
+  }
+}
